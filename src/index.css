@@ -9,10 +9,11 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background-image: url('./images/background.jpg');
-    background-repeat: no-repeat;
-    background-size:auto;
-    overflow-x: hidden  ;
+    background-repeat:round;
+    background-size: auto;
+    overflow-x: hidden;
     background-color: rgba(0, 0, 0, 0.975) !important;
+    background-attachment: fixed;
 }
 
 .App {

@@ -77,19 +77,15 @@
     width: 40px;
     padding: 0.5rem;
     border-radius: 50%;
-    background-color: #283b8b;
+    background-color: transparent;
     cursor: pointer;
     transition: background-color 0.2s ease-in-out;
 
     position: absolute;
-    top: 50%;
+    top: 100%;
     right: 25px;
     transform: translateY(-50%);
     display: none;
-}
-
-.hamburger:hover {
-    background-color: #2642af;
 }
 
 @media screen and (max-width: 1000px) {
@@ -99,42 +95,47 @@
 }
 
 @media screen and (max-width: 1000px) {
-    .navigation-menu ul {
-        display: none;
+
+    .navigation {
+        padding-left: 0;
     }
-}
 
-@media screen and (max-width: 1000px) {
+    .navigation-menu {
+        width: 100vw;
+        padding-left: 0 !important;
+    }
+    
     .navigation-menu ul {
-        position: absolute;
-        top: 60px;
-        left: 0;
+        position: relative;
+        z-index: 1;
 
-        flex-direction: column;
+        top: 5vh;
 
-        width: 100%;
-        height: calc(100vh - 77px);
-        background-color: white;
+        height: 1000vh;
+        background-color: black;
         border-top: 1px solid black;
 
         display: none;
+
+        align-items: baseline;
     }
 
     .navigation-menu li {
-        text-align: center;
-        margin: 0;
-        padding: 0;
+        margin-left: 0 !important;
+        height: 25vh;
     }
 
     .navigation-menu li a {
-        color: black;
-
-        width: 100%;
+        text-align: right;
         padding: 1.5rem 0;
+        font-size: 2rem;
+
+        text-transform: uppercase;
     }
 
     .navigation-menu li:hover {
-        background-color: #eee;
+        color: #eee;
+        cursor: pointer;
     }
 }
 

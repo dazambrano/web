@@ -1,14 +1,13 @@
 import NavBar from './components/NavBar/NavBar';
 import './App.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faDesktop, faTag, faDiagramNext, faServer } from '@fortawesome/free-solid-svg-icons';
 import Experience from './components/Experience/Experience'
 import Paper from '@mui/material/Paper';
 import { styled } from '@mui/material/styles';
-import { Accordion, AccordionSummary, Grid, AccordionDetails, Typography } from '@mui/material';
+import { Grid } from '@mui/material';
 import Workana from './images/workana.webp';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import Expertise from './components/Expertise/Expertise';
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
@@ -53,63 +52,7 @@ function App() {
 
       <div className='my_expertise' id='my_expertise'>
         <h1>My Expertise</h1>
-        <div className='my_expertise_skill_description'>
-          <div className='box_skill'>
-            <div className='skill_title_description'>
-              <FontAwesomeIcon icon={faDesktop} />
-              <h5>
-                <span>Software</span>
-                Development
-              </h5>
-
-              <div className='skill_description'>
-                Experienced in both functional and OOP such as Python, JavaScript and TypeScript.
-              </div>
-            </div>
-          </div>
-          <div className='box_skill'>
-            <div className='skill_title_description'>
-              <FontAwesomeIcon icon={faServer} />
-              <h5>
-                <span>Backend</span>
-                Development
-              </h5>
-
-              <div className='skill_description'>
-                Passionate about Backend. Experience in NodeJs, Flesk, ExpressJs, NestJs Frameworks.
-              </div>
-            </div>
-          </div>
-          <div className='box_skill'>
-            <div className='skill_title_description'>
-              <FontAwesomeIcon icon={faTag} />
-              <h5>
-                <span>Frontend</span>
-                Development
-              </h5>
-
-              <div className='skill_description'>
-                Passionate about UI/UX. Experience in HTML, CSS, JS, React and NextJS frameworks.
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className='my_expertise_skill_description'>
-          <div className='box_skill'>
-            <div className='skill_title_description'>
-              <FontAwesomeIcon icon={faDiagramNext} />
-              <h5>
-                <span>Cloud and DevOps</span>
-                Development
-              </h5>
-
-              <div className='skill_description'>
-                Experienced in Amazon Web Services (AWS), Jenkins, Terreform and other Frameworks.
-              </div>
-            </div>
-          </div>
-        </div>
+        <Expertise />
       </div>
 
       <div className='hello_word_dummpy' />

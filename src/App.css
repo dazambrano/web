@@ -29,76 +29,15 @@
     }
 }
 
-.my_expertise,
 .my_experience {
     font-size: 4vh;
     text-align: center;
 }
 
-.my_expertise,
 .my_experience h1,
 .my_experience button,
 .footer_title_text {
     color: white;
-}
-
-.my_expertise_skill_description div {
-    display: inline-block;
-    text-align: left;
-    margin: 5px;
-    height: 30vh;
-    width: 30vw;
-}
-
-.my_expertise_skill_description>div {
-    border: 2px solid rgba(238, 238, 238, 0.343);
-}
-
-.box_skill {
-    padding: 3vh;
-}
-
-.skill_title_description * {
-    display: inline-block;
-    margin: 5px;
-}
-
-.skill_title_description h5 {
-    font-size: 1.5vw;
-    text-align: left;
-    width: 15vw;
-}
-
-.skill_title_description h5 span {
-    margin: 0;
-    color: #DF058D;
-}
-
-.skill_description {
-    display: block !important;
-    padding-left: 35px;
-    text-align: left;
-    font-family: 'Roboto Mono', Sans-serif;
-    font-size: 1.3vw;
-    cursor: pointer;
-    max-width: 25vw;
-    min-width: auto !important;
-}
-
-.skill_description::before {
-    content: "<h3>";
-    opacity: 0.3;
-    display: block;
-    margin-left: -35px;
-    font-size: 14px;
-}
-
-.skill_description::after {
-    content: "<h3>";
-    opacity: 0.3;
-    display: block;
-    margin-left: -35px;
-    font-size: 14px;
 }
 
 .hello_word_dummpy {

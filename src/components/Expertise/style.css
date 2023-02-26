@@ -1,0 +1,60 @@
+.my_expertise {
+    font-size: 4vh;
+    color: #eee;
+    text-align: center;
+}
+
+.my_expertise_skill_description div {
+    display: inline-block;
+}
+
+.my_expertise_skill_description {
+    border: 2px solid rgba(238, 238, 238, 0.343);
+    cursor: pointer;
+    margin: 2px;
+    padding-bottom: 4vh;
+}
+
+.skill_title_description {
+    float: left;
+}
+
+.skill_title_description_icon * {
+    padding: 10px;
+    height: 6vh;
+}
+
+.skill_title_description_title h2 {
+    height: 30px;
+    text-align: left;
+    font-size: 2rem;
+}
+
+.skill_title_description_title h2 span {
+    display: block;
+    color: #DF058D;
+}
+
+.skill_description {
+    text-align: left;
+    font-family: 'Poppins', Sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-left: 45px;
+}
+
+.skill_description::before {
+    content: "<h3>";
+    opacity: 0.3;
+    display: block;
+    margin-left: -35px;
+    font-size: 15px;
+}
+
+.skill_description::after {
+    content: "<h3>";
+    opacity: 0.3;
+    display: block;
+    margin-left: -35px;
+    font-size: 15px;
+}

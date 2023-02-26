@@ -12,21 +12,9 @@
     transform: translate(-50%, -50%);
 }
 
-.name div:first-child {
-    width: 100%;
-    font-size: 4vw;
-}
-
 .name .brief_description {
     width: 100%;
-    padding-top: 15%;
-    font-size: 3vh;
-}
-
-@media screen and (max-width: 1000px) {
-    .name .brief_description {
-        font-size: 1.8vh;
-    }
+    padding-top: 10%;
 }
 
 .my_experience {

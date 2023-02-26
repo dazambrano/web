@@ -19,7 +19,7 @@
 .brand-name {
     text-decoration: none;
     color: #66d9ed;
-    ;
+
     margin-left: 1rem;
     position: absolute;
     font-weight: bold;
@@ -82,7 +82,7 @@
     transition: background-color 0.2s ease-in-out;
 
     position: absolute;
-    top: 100%;
+    top: 50%;
     right: 25px;
     transform: translateY(-50%);
     display: none;
@@ -136,6 +136,10 @@
     .navigation-menu li:hover {
         color: #eee;
         cursor: pointer;
+    }
+
+    .brand-name {
+        margin-left: 0;
     }
 }
 

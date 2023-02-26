@@ -10,7 +10,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     background-image: url('./images/background.jpg');
     background-repeat:round;
-    background-size: auto;
+    background-size: cover;
     overflow-x: hidden;
     background-color: rgba(0, 0, 0, 0.975) !important;
     background-attachment: fixed;

@@ -3,7 +3,7 @@ import './App.css';
 import Experience from './components/Experience/Experience'
 import Paper from '@mui/material/Paper';
 import { styled } from '@mui/material/styles';
-import { Grid } from '@mui/material';
+import { Grid, Typography } from '@mui/material';
 import Workana from './images/workana.webp';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -31,22 +31,23 @@ function App() {
       <div className='App'>
         <NavBar />
 
-        <div className='name'>
-          <div>
-            <h1>DANIEL ALEJANDRO</h1>
-          </div>
+        <Grid container className='name'>
+          <Grid className='my_name_title' justifyContent={'center'} container>
+            <Typography variant="h1" component="h2">
+            DANIEL ALEJANDRO
+            </Typography>
+          </Grid>
 
-          <div className="brief_description">
+          <Grid container justifyContent={'center'} className="brief_description">
             <span>SOFTWARE ENGINEER, BACK END & FRONT END  DEVELOPER.</span>
-          </div>
+          </Grid>
 
           <div>
             <a href='#my_expertise'>
               <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_4nclagit.json" className="show_more" speed="1" style={styleArrow} loop autoplay></lottie-player>
             </a>
           </div>
-
-        </div>
+        </Grid>
 
       </div>
 

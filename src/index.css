@@ -8,12 +8,13 @@ body {
     font-family: 'Poppins', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-image: url('./images/background.jpg');
-    background-repeat:round;
+    background: url('./images/background.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     overflow-x: hidden;
     background-color: rgba(0, 0, 0, 0.975) !important;
-    background-attachment: fixed;
 }
 
 .App {

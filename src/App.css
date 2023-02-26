@@ -1,20 +1,33 @@
 .name {
-    display: flex;
     color: white;
-}
-
-.name div {
     text-align: center;
     font-family: 'Poppins', Sans-serif;
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.name .brief_description {
+.my_name_title h1 {
+    font-size: 8vw;
+    height: 10vh;
+}
+
+.brief_description {
     width: 100%;
-    padding-top: 10%;
+    font-size: 2vw;
+    color: #DF058D;
+}
+
+@media screen and (max-width: 800px) {
+    .my_name_title h1 {
+        font-size: 14vw;
+    }
+
+    .brief_description {
+        padding-top: 40px;
+        font-size: 4vw;
+    }
 }
 
 .my_experience {

@@ -6,14 +6,14 @@
 }
 
 body {
-    background-color: rgba(0, 0, 0, 0.975) !important;
+    background-color: rgba(0, 0, 0, 0.964) !important;
 }
 
 .App {
     font-family: 'Poppins', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background: url('./images/background.jpg') no-repeat center center fixed; 
+    background: url('./images/background.jpg') no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

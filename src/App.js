@@ -22,8 +22,7 @@ function App() {
   const styleArrow = {
     position: "relative",
     width: "10vw",
-    height: "100px",
-    bottom: "-40vh"
+    bottom: "-70vh"
   }
 
   return (
@@ -39,20 +38,14 @@ function App() {
           <Grid className="brief_description">
             <h3>SOFTWARE ENGINEER, BACK END & FRONT END  DEVELOPER.</h3>
           </Grid>
-
-          <div>
-            <a href='#my_expertise'>
-              <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_4nclagit.json" className="show_more" speed="1" style={styleArrow} loop autoplay></lottie-player>
-            </a>
-          </div>
         </Grid>
 
       </div>
 
-      <div className='my_expertise' id='my_expertise'>
+      <Grid pt={6} className='my_expertise' id='my_expertise'>
         <h1>My Expertise</h1>
         <Expertise />
-      </div>
+      </Grid>
 
       <div className='hello_word_dummpy' />
 
@@ -63,33 +56,34 @@ function App() {
 
 
       <footer id='contact'>
-        <Grid container spacing={2} justifyContent="center">
+        <Grid container justifyContent="center">
           <Item>
             <h1 className='footer_title'>Let's start</h1>
           </Item>
         </Grid>
 
-        <Grid container spacing={{ xs: 2, md: 3 }} justifyContent="center" columns={{ xs: 4, sm: 8, md: 12 }}>
+        <Grid container justifyContent="center" columns={{ xs: 4, sm: 8, md: 12 }}>
           <Grid item xs={4} sm={5} md={5} className='footer_row'>
             <h1 className='footer_text footer_text_contact'>dzambranocisneros@gmail.com</h1>
-          </Grid>
-          <Grid item xs={4} sm={2} md={2} className='footer_row'>
-            <h1 className='footer_text footer_text_get_quote'>GET A QUOTE</h1>
           </Grid>
           <Grid item xs={4} sm={5} md={5} className='footer_row'>
             <h1 className='footer_text footer_text_contact'>+52 (449) 524-73-95</h1>
           </Grid>
         </Grid>
-
+  
         <Grid container justifyContent="center" className='footer_network_socials'>
           <Grid item xs={2}>
             <Item className='footer_text footer_network_social_icon'>
-              <LinkedInIcon />
+              <a className='footer_link' target='_blank' href='https://www.linkedin.com/in/daniel-alejandro-zambrano-cisneros-7bb31119a/'>
+                <LinkedInIcon />
+              </a>
             </Item>
           </Grid>
           <Grid item xs={2}>
             <Item className='footer_text footer_network_social_icon'>
-              <GitHubIcon />
+              <a className='footer_link' target='_blank' href='https://github.com/dazambrano'>
+                <GitHubIcon />
+              </a>
             </Item>
           </Grid>
           <Grid item xs={2}>

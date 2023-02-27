@@ -46,7 +46,7 @@ const EXPERTISE = [
 
 export default function Expertise() {
     return (
-        <Box>
+        <Box pt={6}>
             <Grid justifyContent={'center'} container columns={{ xs: 3, sm: 8, md: 12 }}>
                 {EXPERTISE.map((element) => (
                     <Grid item xs={2} sm={4} md={4} key={element.id}>

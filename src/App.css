@@ -16,17 +16,30 @@
 .brief_description {
     width: 100%;
     font-size: 2vw;
+    padding-top: 10vh;
     color: #DF058D;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
     .my_name_title h1 {
-        font-size: 14vw;
+        font-size: 11vw;
     }
 
     .brief_description {
-        padding-top: 40px;
-        font-size: 4vw;
+        font-size: 3vw;
+    }
+    .show_more {
+        width: 10vw !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .brief_description {
+        padding-top: 5vh;
+    }
+
+    .show_more {
+        width: 10vw !important;
     }
 }
 
@@ -63,15 +76,6 @@
     font-size: 1.1em;
 }
 
-.experience_container {
-    width: 40vw;
-    margin: 0px auto;
-}
-
-.accordion {
-    margin-top: 10px;
-}
-
 .my_experience {
     background-color: #490c86 !important;
     border-radius: 10px;
@@ -106,7 +110,6 @@ footer {
 footer div {
     background-color: transparent !important;
     box-shadow: none !important;
-    margin-bottom: 5vh;
 }
 
 .footer_title {
@@ -116,6 +119,7 @@ footer div {
 
 .footer_row {
     display: flex;
+    padding-bottom: 10px;
     justify-content: center !important;
 }
 
@@ -123,7 +127,6 @@ footer div {
     color: white !important;
     font-size: 1.2rem;
     font-weight: 0 !important;
-    margin: auto !important;
     cursor: pointer;
 }
 
@@ -136,7 +139,6 @@ footer div {
     background-size: 200% 100%;
     background-position: -100%;
     display: inline-block;
-    padding: 5px 0;
     position: relative;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -163,33 +165,20 @@ footer div {
     width: 100%;
 }
 
-.footer_text_get_quote {
-    text-decoration: none;
-    color: white;
-    font-weight: 700;
-    position: relative;
-    font-size: 3vh;
-    border: 1px solid blueviolet;
-    border-radius: 55px;
-    padding: 5vh;
-}
-
-.footer_text_get_quote:hover {
-    transition: all .3s ease-in-out;
-    background-color: blueviolet;
-    color: white;
-}
-
 .footer_network_socials {
     border-top: 1px solid rgba(255, 255, 255, 0.252);
     width: 90vw !important;
     margin: auto !important;
     cursor: pointer;
 
-    padding-top: 5vh;
+    padding-top: 2vh;
 }
 
 .footer_network_social_icon:hover {
     color: #DF058D !important;
     transition: ease-in-out 1s;
+}
+
+.footer_link {
+    color: white;
 }

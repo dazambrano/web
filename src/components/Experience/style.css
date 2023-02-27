@@ -1,0 +1,21 @@
+.experience_container {
+    width: 50vw;
+    padding: 10px;
+    margin: auto;
+}
+
+.page_location {
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+
+.accordion {
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+    .experience_container {
+        width: 100vw;
+    }
+}

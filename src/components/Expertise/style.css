@@ -11,12 +11,13 @@
 .my_expertise_skill_description {
     border: 2px solid rgba(238, 238, 238, 0.343);
     cursor: pointer;
-    margin: 2px;
     padding-bottom: 4vh;
+    margin: 2px;
 }
 
 .skill_title_description {
     float: left;
+    margin: 10px;
 }
 
 .skill_title_description_icon * {

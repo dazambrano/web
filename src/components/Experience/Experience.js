@@ -45,11 +45,11 @@ const Experience = [
     },
     {
         title: "Softaware Developer @ Freelance",
-        time: "2019 - now",
+        time: "2021 - now",
         location: "México, Aguascalientes",
         page_location: "https://www.dazambrano.link/#my_expertise",
         page: "dazambrano.link",
-        description: "Developed the UI and UX eco-system for a internal platform using modular component structures with JS, CSS, Express on Node.",
+        description: "Developed the UI and UX eco-system for a internal platform using modular component frameworks like ReactJs, VueJs, NextJs. Creating BackEnd systems using Express on Node, NestJs, Python and AWS Cloud.",
         tools: ["NodeJs", "AWS", "GitHub", "ReactJs & Redux", "React Native", "MongoDB"]
     }
 ]

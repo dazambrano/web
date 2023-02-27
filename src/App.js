@@ -88,7 +88,7 @@ function App() {
           </Grid>
           <Grid item xs={2}>
             <Item className='footer_text footer_network_social_icon' padding>
-              <img src={Workana} height="25" />
+              <img src='https://wkncdn.com/newx/assets/build/img/favicon.57f21bf36.png' height="25" />
             </Item>
           </Grid>
         </Grid>

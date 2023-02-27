@@ -50,7 +50,7 @@ const Experience = [
         page_location: "https://www.dazambrano.link/#my_expertise",
         page: "dazambrano.link",
         description: "Developed the UI and UX eco-system for a internal platform using modular component frameworks like ReactJs, VueJs, NextJs. Creating BackEnd systems using Express on Node, NestJs, Python and AWS Cloud.",
-        tools: ["NodeJs", "AWS", "GitHub", "ReactJs & Redux", "React Native", "MongoDB"]
+        tools: ["Python", "NodeJs-Express", "NextJs", "AWS", "GitHub", "ReactJs & Redux", "NextJs", "VueJs", "React Native", "MongoDB"]
     }
 ]
 

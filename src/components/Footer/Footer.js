@@ -34,6 +34,7 @@ const FireNav = styled(List)({
 
 export default function CustomizedList() {
   const [open, setOpen] = React.useState(true);
+  
   return (
     <Box sx={{ display: 'flex' }}>
       <ThemeProvider

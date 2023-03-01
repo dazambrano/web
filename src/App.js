@@ -81,7 +81,7 @@ function App() {
           </Grid>
           <Grid item xs={2}>
             <Item className='footer_text footer_network_social_icon'>
-              <a className='footer_link' target='_blank' href='https://github.com/dazambrano'>
+              <a className='footer_link' target='_blank' href='/'>
                 <GitHubIcon />
               </a>
             </Item>
